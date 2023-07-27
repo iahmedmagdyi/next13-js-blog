@@ -12,7 +12,7 @@ const Comment = ({ comment, setComments }) => {
 
   const handleDeleteComment = async () => {
     try {
-      await fetch(`http://localhost:3000/api/comment/${comment?._id}`, {
+      await fetch(`http://127.0.0.1:3000/api/comment/${comment?._id}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         },
