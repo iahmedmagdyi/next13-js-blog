@@ -1,9 +1,6 @@
 {
   "/page": "app/page.js",
-  "/create-blog/page": "app/create-blog/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/blog/route": "app/api/blog/route.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/comment/[id]/route": "app/api/comment/[id]/route.js",
-  "/api/blog/[id]/route": "app/api/blog/[id]/route.js"
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
